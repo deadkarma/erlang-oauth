@@ -1,7 +1,7 @@
 -module(oauth).
 
 -export([get/3, get/5, get/6, post/3, post/5, post/6, put/6, put/7, uri/2, header/1,
-  sign/6, params_decode/1, token/1, token_secret/1, verify/6]).
+  sign/6, params_decode/1, token/1, token_secret/1, verify/6, http_request/3]).
 
 -export([plaintext_signature/2, hmac_sha1_signature/5,
   hmac_sha1_signature/3, rsa_sha1_signature/4, rsa_sha1_signature/2,
